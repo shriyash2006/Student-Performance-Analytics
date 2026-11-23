@@ -1,0 +1,37 @@
+{
+  "uiInspection": {
+    "activations": [
+      "ReLU",
+      "Tanh",
+      "Sigmoid",
+      "Linear"
+    ],
+    "regularizations": [
+      "None",
+      "L1",
+      "L2"
+    ],
+    "problemTypes": [
+      "Classification",
+      "Regression"
+    ],
+    "datasets": [
+      "Circle",
+      "Exclusive or",
+      "Gaussian",
+      "Spiral",
+      "Plane",
+      "Multi gaussian"
+    ]
+  },
+  "circleExperiment": {
+    "epoch": 302,
+    "lossTest": "0.002",
+    "lossTrain": "0.001"
+  },
+  "spiralExperiment": {
+    "epoch": 484,
+    "lossTest": "0.002",
+    "lossTrain": "0.001"
+  }
+}
