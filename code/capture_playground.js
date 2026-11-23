@@ -43,7 +43,7 @@ async function run() {
   console.log('\n--- Running Experiment 1: Circle Dataset ---');
   // Hash for circle, 2 layers (4,4), ReLU, lr=0.03, noise=15, ratio=50%
   const circleUrl = 'https://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=15&networkShape=4,4&seed=0.42&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false';
-  
+
   await page.goto(circleUrl, { waitUntil: 'networkidle2' });
   await new Promise(r => setTimeout(r, 2000));
 

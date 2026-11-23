@@ -11,6 +11,15 @@
 ```
 Practical01/
 ├── README.md                                  ← Project documentation and reproduction guide
+├── Complete_Guide/                            ← Comprehensive 8-part in-depth academic & viva guide
+│   ├── README.md                              ← Master guide navigation & index
+│   ├── 01_Dataset_and_Feature_Dictionary.md   ← Full attribute breakdown & data dictionary
+│   ├── 02_Descriptive_Statistics_and_Math.md  ← Mathematical formulas & verified stats tables
+│   ├── 03_Exploratory_Visual_Analytics.md     ← Detailed analysis of all 14 figures
+│   ├── 04_Outlier_Detection_and_Tukey_Fences.md ← Outlier mechanics, zero-inflation & dropouts
+│   ├── 05_TensorFlow_Playground_Simulation.md ← Live neural network simulation & boundary dynamics
+│   ├── 06_Target_Leakage_and_MLP_Classifier.md ← Leakage-free ML pipeline & evaluation analysis
+│   └── 07_Viva_Voce_and_Exam_Defense_QnA.md    ← Top 15 viva defense questions & model answers
 ├── code/
 │   ├── practical01_eda.py                     ← Main Python script (complete EDA + MLP extension)
 │   ├── Practical01_EDA_StudentPerformance.ipynb ← Interactive Jupyter Notebook version
